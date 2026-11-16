@@ -1,0 +1,1 @@
+struct sockaddr_in contains IPv4-specific information such as IP address and port, while struct sockaddr is the generic interface used by socket functions. The data remains a sockaddr_in; only the pointer type is changed for the function call.
